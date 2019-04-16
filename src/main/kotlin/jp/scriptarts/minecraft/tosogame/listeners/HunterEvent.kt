@@ -5,11 +5,14 @@ import org.bukkit.event.Listener
 import org.bukkit.event.player.PlayerMoveEvent
 
 /**
- *
+ * ハンターイベント（サンプル）
  */
 object HunterEvent: Listener {
+    /**
+     * ハンターが動いたとき（サンプルなので wip）
+     */
     @EventHandler
-    public fun onMove(e: PlayerMoveEvent) {
+    fun onMove(e: PlayerMoveEvent) {
         println(e.player.name)
     }
 }

@@ -7,7 +7,10 @@ import org.bukkit.plugin.java.JavaPlugin
 
 class MainPlugin: JavaPlugin() {
     override fun onEnable() {
+        // register command
         getCommand("toso")?.setExecutor(AdminCommand)
+
+        // register events
         Bukkit.getPluginManager().registerEvents(HunterEvent, this)
     }
 }
