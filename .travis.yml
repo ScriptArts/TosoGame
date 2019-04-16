@@ -4,6 +4,7 @@ sudo: required
 dist: xenial
 
 before_install:
+  - gradle wrapper
   - chmod +x gradlew
 
 jdk:
