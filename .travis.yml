@@ -4,4 +4,4 @@ sudo: required
 dist: xenial
 
 jdk:
-  - oraclejdk8
+  - oraclejdk9
