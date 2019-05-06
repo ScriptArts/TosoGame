@@ -33,6 +33,10 @@ idea {
     }
 }
 
+test {
+    classpath = project.sourceSets.test.runtimeClasspath + files("${projectDir}/test")
+}
+
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
