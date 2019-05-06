@@ -2,4 +2,4 @@ name: TosoGame
 main: jp.scriptarts.minecraft.tosogame.MainPlugin
 version: 0.1.0
 commands:
-  toso:
+  tosoadmin:
